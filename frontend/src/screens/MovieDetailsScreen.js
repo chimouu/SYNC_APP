@@ -238,7 +238,7 @@ const MovieDetailScreen = ({ route, navigation }) => {
     if (hasPassedQuiz) {
       navigation.navigate('ReviewScreen', { movieId: movieDetails.id });
     } else {
-      navigation.navigate('QuizScreen', { movieTitle: movieDetails.title, movieId: movieDetails.id });
+      navigation.navigate('QuizScreen', { movieTitle: movieTitle, movieId: movieDetails.id });
     }
   };
 

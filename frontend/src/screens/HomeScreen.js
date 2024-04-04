@@ -368,7 +368,7 @@ const HomeScreen = ({ navigation }) => {
   const renderMovieItem = ({ item }) => (
     <TouchableOpacity
       style={styles.movieCard}
-      onPress={() => navigation.navigate('MovieDetails', { movieId: item.id })}
+      onPress={() => navigation.navigate('MovieDetailScreen', { movieId: item.id })}
     >
       <Image
         source={{ uri: `https://image.tmdb.org/t/p/w500${item.poster_path}` }}

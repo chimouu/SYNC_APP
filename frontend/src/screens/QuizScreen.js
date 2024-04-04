@@ -114,15 +114,29 @@
 
 // export default QuizScreen;
 
-// QuizScreen.js
+// // QuizScreen.js
+// import React, { useState } from 'react';
+// import { ScrollView, View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native';
+// import { quizzes } from '../utilities/quiz_data'; // Adjust the import path to your quiz_data file
+// import { markQuizAsPassed } from '../utilities/quiz_storage'; // Assuming you've created QuizStorage.js as described
+
 import React, { useState } from 'react';
 import { ScrollView, View, Text, TouchableOpacity, StyleSheet, Alert } from 'react-native';
-import { quizzes } from '../utilities/quiz_data'; // Adjust the import path to your quiz_data file
-import { markQuizAsPassed } from '../utilities/quiz_storage'; // Assuming you've created QuizStorage.js as described
+import { quizzes as nestedQuizzes } from '../utilities/quiz_data'; // Adjust the import path to your quiz_data file
+import { markQuizAsPassed } from '../utilities/quiz_storage';
 
 const QuizScreen = ({ route, navigation }) => {
-  const { movieTitle, movieId } = route.params;
-  const quiz = quizzes.find(quiz => quiz.title.toLowerCase().includes(movieTitle.toLowerCase()));
+  const { movieId } = route.params;
+  console.log(route.params);
+  
+  // Assuming the quizzes are nested in an outer array, each with a quizzes key
+  const quizzes = nestedQuizzes.flatMap(item => item.quizzes).flat();
+  console.log(quizzes);
+
+  // Finding a quiz by ID, assuming the flattened structure
+  const quiz = quizzes.find(quiz => quiz.id === movieId);
+
+  console.log(quiz);
 
   const [selectedChoices, setSelectedChoices] = useState({});
   
@@ -139,14 +153,16 @@ const QuizScreen = ({ route, navigation }) => {
     });
 
     if (newScore >= 4) {
-      await markQuizAsPassed(movieTitle);
+      await markQuizAsPassed(movieId); // Assuming you're marking by movieId now
       navigation.navigate('ReviewScreen', { movieId });
     } else {
-      Alert.alert("Quiz Result", "You need at least 4/5 to pass. Please try again!", [
-        { text: "OK" }
-      ]);
+      Alert.alert("Quiz Result", "You need at least 4/5 to pass. Please try again!", [{ text: "OK" }]);
     }
   };
+
+  if (!quiz) {
+    return <Text>No quiz found for this movieId.</Text>;
+  }
 
   return (
     <ScrollView style={styles.container}>
@@ -174,6 +190,9 @@ const QuizScreen = ({ route, navigation }) => {
     </ScrollView>
   );
 };
+
+// Styles remain unchanged
+
 
 const styles = StyleSheet.create({
   container: {
