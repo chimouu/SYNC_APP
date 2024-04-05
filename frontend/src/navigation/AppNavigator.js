@@ -29,7 +29,7 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native';
 import HomeScreen from '../screens/HomeScreen';
-import MovieDetailScreen from '../screens/MovieDetailsScreen';
+import MovieDetailsModal from '../screens/MovieDetailsModal';
 import RecScreen from '../screens/RecScreen';
 import ReviewScreen from '../screens/ReviewScreen';
 import QuizScreen from '../screens/QuizScreen';
@@ -41,10 +41,15 @@ const AppNavigator = () => {
     <NavigationContainer>
       <Stack.Navigator>
         <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }} />
-        <Stack.Screen name="MovieDetailScreen" component={MovieDetailScreen} options={{ headerShown: false }} />
+        {/* Define the screen as a modal or part of the main navigation */}
+      <Stack.Screen 
+        name="MovieDetailsModal" 
+        component={MovieDetailsModal}
+        options={{ presentation: 'modal' }} // This makes the screen appear as a modal
+      />
         <Stack.Screen name="RecScreen" component={RecScreen} options={{ title: 'Recommendations' }} />
-        <Stack.Screen name="ReviewScreen" component={ReviewScreen} options={{ title: 'Reviews' }} />
-        <Stack.Screen name="QuizScreen" component={QuizScreen} options={{ title: 'Quiz' }} />
+        <Stack.Screen name="ReviewScreen" component={ReviewScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="QuizScreen" component={QuizScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

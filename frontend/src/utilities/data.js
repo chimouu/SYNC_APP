@@ -686,6 +686,379 @@ export const movies = [
         "video": false,
         "vote_average": 6.608,
         "vote_count": 3006
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/hQ7TIgjlktohXiHYUtDWwRi1AV2.jpg",
+        "genre_ids": [
+            10402
+        ],
+        "id": 1160164,
+        "original_language": "en",
+        "original_title": "TAYLOR SWIFT | THE ERAS TOUR",
+        "overview": "The cultural phenomenon continues on the big screen! Immerse yourself in this once-in-a-lifetime concert film experience with a breathtaking, cinematic view of the history-making tour.",
+        "popularity": 183.842,
+        "poster_path": "/jf3YO8hOqGHCupsREf5qymYq1n.jpg",
+        "release_date": "2023-10-13",
+        "title": "TAYLOR SWIFT | THE ERAS TOUR",
+        "video": false,
+        "vote_average": 8.4,
+        "vote_count": 299
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/15BnuDQ8pYRmLqPZKAk5vIhUu9J.jpg",
+        "genre_ids": [
+            37,
+            53,
+            28
+        ],
+        "id": 843380,
+        "original_language": "en",
+        "original_title": "Dead for a Dollar",
+        "overview": "In 1897, veteran bounty hunter Max Borlund is deep into Mexico where he encounters professional gambler and outlaw Joe Cribbens — a sworn enemy he sent to prison years before. Max is on a mission to find and return Rachel Kidd, the wife of a wealthy businessman, who as the story is told to Max, has been abducted by Buffalo Soldier Elijah Jones. Max is ultimately faced with a showdown to save honor.",
+        "popularity": 181.761,
+        "poster_path": "/1AnXfjxFqMsQmUPSvt9YxUJhfFw.jpg",
+        "release_date": "2022-09-30",
+        "title": "Dead for a Dollar",
+        "video": false,
+        "vote_average": 5.873,
+        "vote_count": 220
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/zgQQF04u3OgNBJqClRNby1FPz9s.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            28,
+            878,
+            35,
+            18,
+            12
+        ],
+        "id": 893723,
+        "original_language": "en",
+        "original_title": "PAW Patrol: The Mighty Movie",
+        "overview": "A magical meteor crash lands in Adventure City and gives the PAW Patrol pups superpowers, transforming them into The Mighty Pups.",
+        "popularity": 178.201,
+        "poster_path": "/aTvePCU7exLepwg5hWySjwxojQK.jpg",
+        "release_date": "2023-09-29",
+        "title": "PAW Patrol: The Mighty Movie",
+        "video": false,
+        "vote_average": 7.115,
+        "vote_count": 358
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/p9DKeXp6FPJtAQ1k13Z4zPWrCbN.jpg",
+        "genre_ids": [
+            18
+        ],
+        "id": 1058694,
+        "original_language": "en",
+        "original_title": "Radical",
+        "overview": "In a Mexican border town plagued by neglect, corruption, and violence, a frustrated teacher tries a radical new method to break through his students’ apathy and unlock their curiosity, their potential… and maybe even their genius.",
+        "popularity": 177.357,
+        "poster_path": "/eSatbygYZp8ooprBHZdb6GFZxGB.jpg",
+        "release_date": "2023-11-03",
+        "title": "Radical",
+        "video": false,
+        "vote_average": 8.417,
+        "vote_count": 326
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/tC78Pck2YCsUAtEdZwuHYUFYtOj.jpg",
+        "genre_ids": [
+            28,
+            53,
+            80
+        ],
+        "id": 926393,
+        "original_language": "en",
+        "original_title": "The Equalizer 3",
+        "overview": "Robert McCall finds himself at home in Southern Italy but he discovers his friends are under the control of local crime bosses. As events turn deadly, McCall knows what he has to do: become his friends' protector by taking on the mafia.",
+        "popularity": 172.993,
+        "poster_path": "/b0Ej6fnXAP8fK75hlyi2jKqdhHz.jpg",
+        "release_date": "2023-09-01",
+        "title": "The Equalizer 3",
+        "video": false,
+        "vote_average": 7.381,
+        "vote_count": 2407
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/9eAn20y26wtB3aet7w9lHjuSgZ3.jpg",
+        "genre_ids": [
+            12,
+            28,
+            878
+        ],
+        "id": 507086,
+        "original_language": "en",
+        "original_title": "Jurassic World Dominion",
+        "overview": "Four years after Isla Nublar was destroyed, dinosaurs now live—and hunt—alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators ona planet they now share with history's most fearsome creatures.",
+        "popularity": 170.846,
+        "poster_path": "/kAVRgw7GgK1CfYEJq8ME6EvRIgU.jpg",
+        "release_date": "2022-06-10",
+        "title": "Jurassic World Dominion",
+        "video": false,
+        "vote_average": 6.726,
+        "vote_count": 5638
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/27jtaS1oCiLK5Y7P6iOXG2yj1Nc.jpg",
+        "genre_ids": [
+            27,
+            9648
+        ],
+        "id": 968051,
+        "original_language": "en",
+        "original_title": "The Nun II",
+        "overview": "In 1956 France, a priest is violently murdered, and Sister Irene begins to investigate. She once again comes face-to-face with a powerful evil.",
+        "popularity": 167.12,
+        "poster_path": "/5gzzkR7y3hnY8AD1wXjCnVlHba5.jpg",
+        "release_date": "2023-09-08",
+        "title": "The Nun II",
+        "video": false,
+        "vote_average": 6.823,
+        "vote_count": 1739
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/zWtF5eWVAyenIYu26VZbsLJon38.jpg",
+        "genre_ids": [
+            27,
+            53
+        ],
+        "id": 1189798,
+        "original_language": "en",
+        "original_title": "Squealer",
+        "overview": "When young women begin to disappear across a small town, a police officer and a street-smart social worker follow clues to a remote pig farm and discover the local butcher has been bringing his work home.",
+        "popularity": 161.708,
+        "poster_path": "/wdNdrqVJgkNNuYbI11TiiYkuP7Q.jpg",
+        "release_date": "2023-11-03",
+        "title": "Squealer",
+        "video": false,
+        "vote_average": 5.986,
+        "vote_count": 35
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/b0PlSFdDwbyK0cf5RxwDpaOJQvQ.jpg",
+        "genre_ids": [
+            80,
+            9648,
+            53
+        ],
+        "id": 414906,
+        "original_language": "en",
+        "original_title": "The Batman",
+        "overview": "In his second year of fighting crime, Batman uncovers corruption in Gotham City that connects to his own family while facing a serial killer known as the Riddler.",
+        "popularity": 161.667,
+        "poster_path": "/74xTEgt7R36Fpooo50r9T25onhq.jpg",
+        "release_date": "2022-03-04",
+        "title": "The Batman",
+        "video": false,
+        "vote_average": 7.683,
+        "vote_count": 9331
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/AaV1YIdWKnjAIAOe8UUKBFm327v.jpg",
+        "genre_ids": [
+            28,
+            18
+        ],
+        "id": 361743,
+        "original_language": "en",
+        "original_title": "Top Gun: Maverick",
+        "overview": "After more than thirty years of service as one of the Navy’s top aviators, and dodging the advancement in rank that would ground him, Pete “Maverick” Mitchell finds himself training a detachment of TOP GUN graduates for a specialized mission the likes of which no living pilot has ever seen.",
+        "popularity": 158.936,
+        "poster_path": "/62HCnUTziyWcpDaBO2i1DX17ljH.jpg",
+        "release_date": "2022-05-27",
+        "title": "Top Gun: Maverick",
+        "video": false,
+        "vote_average": 8.225,
+        "vote_count": 8382
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/7VEUOEfRzzrQfWddlIyLUKvh6Nf.jpg",
+        "genre_ids": [
+            12,
+            10751,
+            14,
+            10749
+        ],
+        "id": 447277,
+        "original_language": "en",
+        "original_title": "The Little Mermaid",
+        "overview": "The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric. With mermaids forbidden to interact with humans, Ariel makes a deal with the evil sea witch, Ursula, which gives her a chance to experience life on land, but ultimately places her life – and her father’s crown – in jeopardy.",
+        "popularity": 158.601,
+        "poster_path": "/ym1dxyOk4jFcSl4Q2zmRrA5BEEN.jpg",
+        "release_date": "2023-08-25",
+        "title": "The Little Mermaid",
+        "video": false,
+        "vote_average": 6.393,
+        "vote_count": 2663
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/P3GAbRjzVo9RKU4WxzvtgwlITc.jpg",
+        "genre_ids": [
+            28,
+            18
+        ],
+        "id": 678512,
+        "original_language": "en",
+        "original_title": "Sound of Freedom",
+        "overview": "The story of Tim Ballard, a former US government agent, who quits his job in order to devote his life to rescuing children from global sex traffickers.",
+        "popularity": 157.226,
+        "poster_path": "/qA5kPYZA7FkVvqcEfJRoOy4kpHg.jpg",
+        "release_date": "2023-07-04",
+        "title": "Sound of Freedom",
+        "video": false,
+        "vote_average": 8.039,
+        "vote_count": 2047
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/okXIAgFc2U6jf4uZrivhwEu7vbW.jpg",
+        "genre_ids": [
+            35,
+            14
+        ],
+        "id": 823482,
+        "original_language": "en",
+        "original_title": "Dream Scenario",
+        "overview": "Hapless family man Paul Matthews finds his life turned upside down when millions of strangers suddenly start seeing him in their dreams. But when his nighttime appearances take a nightmarish turn, Paul is forced to navigate his newfound stardom.",
+        "popularity": 155.042,
+        "poster_path": "/zhEaG0KQ32KerHEWmImsYLexDix.jpg",
+        "release_date": "2023-11-10",
+        "title": "Dream Scenario",
+        "video": false,
+        "vote_average": 6.799,
+        "vote_count": 482
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/57JocxmicOoAMhkUSmdKBlpZWMT.jpg",
+        "genre_ids": [
+            12,
+            28
+        ],
+        "id": 335977,
+        "original_language": "en",
+        "original_title": "Indiana Jones and the Dial of Destiny",
+        "overview": "Finding himself in a new era, and approaching retirement, Indy wrestles with fitting into a world that seems to have outgrown him. But as the tentacles of an all-too-familiar evil return in the form of an old rival, Indy must don his hat and pick up his whip once more to make sure an ancient and powerful artifact doesn't fall into the wrong hands.",
+        "popularity": 154.77,
+        "poster_path": "/Af4bXE63pVsb2FtbW8uYIyPBadD.jpg",
+        "release_date": "2023-06-30",
+        "title": "Indiana Jones and the Dial of Destiny",
+        "video": false,
+        "vote_average": 6.597,
+        "vote_count": 2908
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/xzdOIL7261CWehsHOk3lnP0xqam.jpg",
+        "genre_ids": [
+            28,
+            878,
+            12
+        ],
+        "id": 565770,
+        "original_language": "en",
+        "original_title": "Blue Beetle",
+        "overview": "Recent college grad Jaime Reyes returns home full of aspirations for his future, only to find that home is not quite as he left it. As he searches to find his purpose in the world, fate intervenes when Jaime unexpectedly finds himself in possession of an ancient relic of alien biotechnology: the Scarab.",
+        "popularity": 152.456,
+        "poster_path": "/mXLOHHc1Zeuwsl4xYKjKh2280oL.jpg",
+        "release_date": "2023-08-18",
+        "title": "Blue Beetle",
+        "video": false,
+        "vote_average": 6.821,
+        "vote_count": 2265
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/z5AUKpMcvF7Grw7JDTgoNzOU6LD.jpg",
+        "genre_ids": [
+            18,
+            36
+        ],
+        "id": 850165,
+        "original_language": "en",
+        "original_title": "The Iron Claw",
+        "overview": "The true story of the inseparable Von Erich brothers, who made history in the intensely competitive world of professional wrestling in the early 1980s. Through tragedy and triumph, under the shadow of their domineering father and coach, the brothers seek larger-than-life immortality on the biggest stage in sports.",
+        "popularity": 150.527,
+        "poster_path": "/nfs7DCYhgrEIgxKYbITHTzKsggf.jpg",
+        "release_date": "2023-12-22",
+        "title": "The Iron Claw",
+        "video": false,
+        "vote_average": 7.535,
+        "vote_count": 358
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/jZXvRmQTAFmNaHSyN8DQqS5IIaM.jpg",
+        "genre_ids": [
+            27
+        ],
+        "id": 860867,
+        "original_language": "en",
+        "original_title": "The Accursed",
+        "overview": "Hana spends twenty years suppressing a maleficent curse that was placed upon her bloodline, only to have a family member knowingly release it forcing her to kill or to be killed.",
+        "popularity": 148.791,
+        "poster_path": "/dEEXkhekQd7W1S9gZ9EawXNkaEF.jpg",
+        "release_date": "2021-11-12",
+        "title": "The Accursed",
+        "video": false,
+        "vote_average": 6.167,
+        "vote_count": 36
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/fOy2Jurz9k6RnJnMUMRDAgBwru2.jpg",
+        "genre_ids": [
+            16,
+            10751,
+            35,
+            14
+        ],
+        "id": 508947,
+        "original_language": "en",
+        "original_title": "Turning Red",
+        "overview": "Thirteen-year-old Mei is experiencing the awkwardness of being a teenager with a twist – when she gets too excited, she transforms into a giant red panda.",
+        "popularity": 145.779,
+        "poster_path": "/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg",
+        "release_date": "2024-02-09",
+        "title": "Turning Red",
+        "video": false,
+        "vote_average": 7.399,
+        "vote_count": 4842
+    },
+    {
+        "adult": false,
+        "backdrop_path": "/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg",
+        "genre_ids": [
+            28,
+            12,
+            878
+        ],
+        "id": 640146,
+        "original_language": "en",
+        "original_title": "Ant-Man and the Wasp: Quantumania",
+        "overview": "Super-Hero partners Scott Lang and Hope van Dyne, along with with Hope's parents Janet van Dyne and Hank Pym, and Scott's daughter Cassie Lang, find themselves exploring the Quantum Realm, interacting with strange new creatures and embarking on an adventure that will push them beyond the limits of what they thought possible.",
+        "popularity": 145.54,
+        "poster_path": "/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
+        "release_date": "2023-02-17",
+        "title": "Ant-Man and the Wasp: Quantumania",
+        "video": false,
+        "vote_average": 6.358,
+        "vote_count": 4560
     }
   ];
   

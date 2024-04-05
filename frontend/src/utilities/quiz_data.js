@@ -37,7 +37,7 @@ export const quizzes = [
       {
           "quizzes": [
               {
-                  "title": "Poor Things Movie Quiz",
+                  "title": "Poor Things",
                   "questions": [
                       {
                           "question": "Who plays the young woman brought back to life in 'Poor Things'?",
@@ -71,7 +71,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "Migration Movie Trivia",
+            "title": "Migration Movie",
             "questions": [
               {
                 "question": "Who plays a role in the duck family in the movie?",
@@ -105,7 +105,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "Anyone But You Movie Trivia",
+            "title": "Anyone But You",
             "questions": [
               {
                 "question": "Where do Bea and Ben pretend to be a couple?",
@@ -139,7 +139,7 @@ export const quizzes = [
       {
           "quizzes": [
               {
-                  "title": "Oppenheimer Movie Trivia",
+                  "title": "Oppenheimer",
                   "questions": [
                       {
                           "question": "Who played the role of J. Robert Oppenheimer in the movie?",
@@ -173,7 +173,7 @@ export const quizzes = [
       {
           "quizzes": [
               {
-                  "title": "The Weapon Movie Trivia",
+                  "title": "The Weapon",
                   "questions": [
                       {
                           "question": "Who is the main character in the movie 'The Weapon'?",
@@ -227,7 +227,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "Meteor Movie Trivia",
+            "title": "Meteor",
             "questions": [
               {
                 "question": "Who are the two main characters in the movie Meteor?",
@@ -261,7 +261,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "Ruthless Movie Trivia",
+            "title": "Ruthless",
             "questions": [
               {
                 "question": "Who plays the role of the high school coach seeking revenge in the movie 'Ruthless'?",
@@ -329,7 +329,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "Dune Movie Trivia",
+            "title": "Dune",
             "questions": [
               {
                 "question": "Who plays the character Paul Atreides in the movie Dune?",
@@ -363,7 +363,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "The Marvels Quiz",
+            "title": "The Marvels",
             "questions": [
               {
                 "question": "Who plays Carol Danvers, aka Captain Marvel, in the movie The Marvels?",
@@ -397,7 +397,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "The OctoGames Trivia",
+            "title": "The OctoGames",
             "questions": [
               {
                 "question": "What do the contestants compete for in The OctoGames?",
@@ -465,7 +465,7 @@ export const quizzes = [
       {
           "quizzes": [
               {
-                  "title": "The Kindred Movie Trivia",
+                  "title": "The Kindred",
                   "questions": [
                       {
                           "question": "Who plays the role of the young mother investigating her father's death in 'The Kindred'?",
@@ -499,7 +499,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "Wish Movie Quiz",
+            "title": "Wish",
             "questions": [
               {
                 "question": "What is the name of the protagonist in the movie 'Wish'?",
@@ -533,7 +533,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "Agent Game Movie Trivia",
+            "title": "Agent Game",
             "questions": [
               {
                 "question": "Who is the lead character in Agent Game?",
@@ -566,7 +566,7 @@ export const quizzes = [
       },
       {
           "quizzes": [{
-                  "title": "The Five Movie Quiz",
+                  "title": "The Five",
                   "questions": [{
                           "question": "Who enlists the help of five strangers to execute a bank robbery in the movie 'The Five'?",
                           "choices": ["John Marrs", "Todd South", "A scorned woman", "Tom Dragt"],
@@ -580,7 +580,7 @@ export const quizzes = [
                   ]
               },
               {
-                  "title": "The Five Movie Quiz",
+                  "title": "The Five",
                   "questions": [{
                           "question": "Which character anxiously awaits the scorned woman's arrival with the stolen money?",
                           "choices": ["Todd South", "Tom Dragt", "Michael P. Walker", "Cat Roberts"],
@@ -665,7 +665,7 @@ export const quizzes = [
       },
       {
           "quizzes": [{
-                  "title": "The Family Plan Trivia",
+                  "title": "The Family Plan",
                   "questions": [{
                           "question": "What is Dan Morgan's profession before becoming a car salesman?",
                           "choices": ["A. Lawyer", "B. Doctor", "C. Assassin", "D. Teacher"],
@@ -679,7 +679,7 @@ export const quizzes = [
                   ]
               },
               {
-                  "title": "The Family Plan Trivia",
+                  "title": "The Family Plan",
                   "questions": [{
                           "question": "Who plays the role of Dan Morgan in the movie?",
                           "choices": ["A. Mark Wahlberg", "B. Maggie Q", "C. Michelle Monaghan", "D. Zoe Colletti"],
@@ -693,7 +693,7 @@ export const quizzes = [
                   ]
               },
               {
-                  "title": "The Family Plan Trivia",
+                  "title": "The Family Plan",
                   "questions": [{
                           "question": "Which character in the movie is unaware of Dan's past as an assassin?",
                           "choices": ["A. Wife", "B. Son", "C. Daughter", "D. Best friend"],
@@ -773,7 +773,7 @@ export const quizzes = [
       {
         "quizzes": [
           {
-            "title": "The Super Mario Bros. Movie",
+            "title": "The Super Mario Bros.",
             "questions": [
               {
                 "question": "Who plays the character Mario in 'The Super Mario Bros. Movie'?",
