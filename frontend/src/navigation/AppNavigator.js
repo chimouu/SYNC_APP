@@ -45,9 +45,9 @@ const AppNavigator = () => {
       <Stack.Screen 
         name="MovieDetailsModal" 
         component={MovieDetailsModal}
-        options={{ presentation: 'modal' }} // This makes the screen appear as a modal
+        options={{ presentation: 'modal' }} 
       />
-        <Stack.Screen name="RecScreen" component={RecScreen} options={{ title: 'Recommendations' }} />
+        <Stack.Screen name="RecScreen" component={RecScreen} options={{ headerShown: false }} />
         <Stack.Screen name="ReviewScreen" component={ReviewScreen} options={{ headerShown: false }} />
         <Stack.Screen name="QuizScreen" component={QuizScreen} options={{ headerShown: false }} />
       </Stack.Navigator>
