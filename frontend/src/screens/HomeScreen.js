@@ -1,6 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import FloatingNavigation from '../components/Button';
-
 import {
   View,
   Text,
@@ -15,9 +13,8 @@ import {
 } from 'react-native';
 import { movies } from '../utilities/data';
 import MovieDetailsModal from './MovieDetailsModal';
-import Icon from 'react-native-vector-icons/Ionicons'; 
+import Icon from 'react-native-vector-icons/Ionicons';
 import RecScreen from './RecScreen';
-
 
 const HomeScreen = ({ navigation }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -80,21 +77,27 @@ const HomeScreen = ({ navigation }) => {
  
   return (
     <SafeAreaView style={{ flex: 1, backgroundColor: '#661128' }}>
-      
+      <View style={styles.searchContainer}>
+        <TextInput
+          placeholderTextColor={'#ad9974'}
+          placeholder="Search movies..."
+          style={styles.searchText}
+          value={searchQuery}
+          onChangeText={setSearchQuery}
+        />
+        <TouchableOpacity
+          onPress={() => { navigation.navigate('ProfileScreen')}}
+          style={styles.iconButton}
+        >
+          <Icon name="person-outline" size={24} color="#ad9974" />
+        </TouchableOpacity>
+      </View>
+
       <Animated.ScrollView
         style={styles.container}
         onScroll={handleScroll}
         scrollEventThrottle={16}
       >
-        <View style={styles.searchInput}>
-          <TextInput
-            placeholderTextColor={'#ad9974'}
-            placeholder="Search movies..."
-            style={styles.searchText}
-            value={searchQuery}
-            onChangeText={setSearchQuery}
-          />
-        </View>
         {searchQuery ? (
           <MovieCarousel title="Search Results" data={filteredMovies} />
         ) : (
@@ -147,26 +150,30 @@ const styles = StyleSheet.create({
     padding: 10,
     justifyContent: 'space-between',
     alignItems: 'center',
-    backgroundColor: '#ad9974',
-    color: '#ad9974'
+    backgroundColor: 'transparent',
+    marginRight: 0,
+    marginLeft: 1,
+    marginBottom: 10
   },
   searchText: {
-    color: '#ad9974'
-  },
-  smokeText: {
-    color: '#ad9974'
-  },
-  searchInput: {
     flex: 1,
-    marginRight: 50,
-    marginLeft: 10,
-    marginBottom: 10,
     borderWidth: 1,
     borderColor: '#ad9974',
     borderRadius: 5,
     padding: 10,
     color: '#ad9974',
     backgroundColor: '#390f1b'
+  },
+  iconButton: {
+    padding: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  separator: {
+    height: 30,
+    width: 1,
+    backgroundColor: '#ad9974',
+    marginHorizontal: 10,
   },
   carouselContainer: {
     marginBottom: 20,
@@ -188,26 +195,6 @@ const styles = StyleSheet.create({
     height: 180,
     borderRadius: 10,
   },
-  floatingButton: {
-    position: 'absolute',
-    right: 125,
-    bottom: 50,
-    width: 120,
-    height: 70,
-    backgroundColor: 'transparent',
-    borderRadius: 28,
-    justifyContent: 'center',
-    alignItems: 'center',
-    shadowColor: 'transparent',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
-  },
-  floatingButtonText: {
-    color: 'transparent',
-    fontSize: 24,
-  },
   floatingButtonContainer: {
     position: 'absolute',
     right: 135,
@@ -218,18 +205,87 @@ const styles = StyleSheet.create({
     borderRadius: 28,
     padding: 10, 
   },
-  iconButton: {
-    width: 40,
-    height: 40,
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  separator: {
-    height: 30,
-    width: 1,
-    backgroundColor: '#ad9974',
-    marginHorizontal: 10,
-  },
 });
 
 export default HomeScreen;
+// import React, { useState } from 'react';
+// import {
+//   View,
+//   Text,
+//   Image,
+//   TextInput,
+//   TouchableOpacity,
+//   SafeAreaView,
+//   StyleSheet,
+// } from 'react-native';
+// import Icon from 'react-native-vector-icons/Ionicons';
+// import LogoImage from '../utilities/Capture.jpg'; 
+
+// const HomeScreen = ({ navigation }) => {
+//   const [searchActive, setSearchActive] = useState(false);
+//   const [searchQuery, setSearchQuery] = useState('');
+
+//   return (
+//     <SafeAreaView style={{ flex: 1, backgroundColor: '#661128' }}>
+//       <View style={styles.header}>
+//         <Image
+//           source={LogoImage} // Adjust path as necessary
+//           style={styles.logo}
+//         />
+//         <TouchableOpacity onPress={() => setSearchActive(!searchActive)} style={styles.iconButton}>
+//           <Icon name="search-outline" size={24} color="#ad9974" />
+//         </TouchableOpacity>
+//         <TouchableOpacity
+//           onPress={() => navigation.navigate('ProfileScreen')}
+//           style={styles.iconButton}
+//         >
+//           <Icon name="person-outline" size={24} color="#ad9974" />
+//         </TouchableOpacity>
+//       </View>
+
+//       {searchActive && (
+//         <TextInput
+//           placeholder="Search movies..."
+//           placeholderTextColor="#ad9974"
+//           style={styles.searchText}
+//           value={searchQuery}
+//           onChangeText={setSearchQuery}
+//           autoFocus={true}
+//         />
+//       )}
+
+//       {/* Your ScrollView and other content remains here */}
+//     </SafeAreaView>
+//   );
+// };
+
+// const styles = StyleSheet.create({
+//   header: {
+//     flexDirection: 'row',
+//     justifyContent: 'space-between',
+//     alignItems: 'center',
+//     padding: 10,
+//     backgroundColor: '#390f1b',
+//   },
+//   logo: {
+//     width: 50, // Adjust size as necessary
+//     height: 50, // Adjust size as necessary
+//     resizeMode: 'contain',
+//   },
+//   iconButton: {
+//     padding: 10,
+//   },
+//   searchText: {
+//     color: '#ad9974',
+//     backgroundColor: '#390f1b',
+//     borderColor: '#ad9974',
+//     borderWidth: 1,
+//     borderRadius: 5,
+//     padding: 10,
+//     margin: 10,
+//     flex: 1,
+//   },
+// });
+
+// export default HomeScreen;
+

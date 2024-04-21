@@ -33,6 +33,7 @@ import MovieDetailsModal from '../screens/MovieDetailsModal';
 import RecScreen from '../screens/RecScreen';
 import ReviewScreen from '../screens/ReviewScreen';
 import QuizScreen from '../screens/QuizScreen';
+import OutputScreen from '../screens/OutputScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -50,6 +51,8 @@ const AppNavigator = () => {
         <Stack.Screen name="RecScreen" component={RecScreen} options={{ headerShown: false }} />
         <Stack.Screen name="ReviewScreen" component={ReviewScreen} options={{ headerShown: false }} />
         <Stack.Screen name="QuizScreen" component={QuizScreen} options={{ headerShown: false }} />
+        <Stack.Screen name="OutputScreen" component={OutputScreen} options={{ headerShown: false }} />
+
       </Stack.Navigator>
     </NavigationContainer>
   );
